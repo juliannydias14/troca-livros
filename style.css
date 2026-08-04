@@ -70,10 +70,10 @@ section{
 
 .banner-principal{
     height: 20vh;
-    color: ;
+    color: #9e6194;
     text-align: center;
     padding: 40px 200px;
-    background-image: linear-gradient(#bcabcf, #bb8dbb)
+    background-image: linear-gradient(#bcabcf, #bb8dbb);
 }
 
 
@@ -99,4 +99,45 @@ p{
     border: none;
 
 }
+
+.foto-livro{
+    max-width: 15vw;
+
+}
+
+.grade-livros{
+    max-width: 80vw;
+    margin: 0px auto;
+    margin-bottom: ;
+
+}
+
+.area-titulo{ 
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px 0px;
+}
+
+.card-livro{
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #d9c2e4;
+    padding: 10px;
+    box-shadow: 30px var(#8cada3);
+    box-shadow: 0px 0px 10px var(#3a80a0);
+    overflow: hidden;
+}
+
+.info-livros{
+    padding-top: 20px;
+}
+
+.btn-livros {
+    color: #8cada3;
+    background-color: var(#5f515f );
+    padding: 20px;
+    border-radius: 5px;
+}
+
 
