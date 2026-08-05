@@ -70,7 +70,7 @@ section{
 
 .banner-principal{
     height: 20vh;
-    color: #9e6194;
+    color: #ffffff;
     text-align: center;
     padding: 40px 200px;
     background-image: linear-gradient(#bcabcf, #bb8dbb);
@@ -108,7 +108,11 @@ p{
 .grade-livros{
     max-width: 80vw;
     margin: 0px auto;
-    margin-bottom: ;
+    margin-bottom: 10px;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
 
 }
 
@@ -119,13 +123,12 @@ p{
 }
 
 .card-livro{
-    width: 100px;
+    width: 300px;
     text-align: center;
     border-radius: 10px;
     background-color: #d9c2e4;
     padding: 10px;
-    box-shadow: 30px var(#8cada3);
-    box-shadow: 0px 0px 10px var(#3a80a0);
+    box-shadow: 0px 0px 90px #8c5a91;
     overflow: hidden;
 }
 
@@ -133,11 +136,38 @@ p{
     padding-top: 20px;
 }
 
-.btn-livros {
-    color: #8cada3;
-    background-color: var(#5f515f );
+.btn-livro{
+    color: #ff0055;
+    background-color: var(#5f515f #320606 );
     padding: 20px;
+    border: none;
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-livro:hover{
+    background-color: #fff;
+}
+
+.categoria-livro{ 
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 15px;
+}
+.titulo-livro{
+    font-size: 17px;
+    color: #000000;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.autores-livro{
+    font-size: 17px;
+    margin-bottom: 15px;
 }
 
 
