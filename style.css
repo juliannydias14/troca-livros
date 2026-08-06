@@ -5,10 +5,9 @@
 
 *{    
     margin: 0;
-    font-family:poppins-regular;
-        font-family: "Poppins", sans-serif;
-        font-weight:400;
-        font-style:normal;
+    font-family: "Poppins", sans-serif;
+    font-weight:600;
+    font-style:normal;
 }
 
 
@@ -49,8 +48,7 @@ ul{
     color: #320606;
     padding: 10px 15px;
     transition: 0.3s;
-    font-size: 18px
-    ;
+    font-size: 18px;
 }
 
 .menu:hover{
@@ -59,8 +57,7 @@ ul{
     border: 1px solid rgb(201, 167, 209); /* Borda clara sutil */
     border-radius: 20px;
     color: black;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) /* sombra difusa */
-    ;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) /* sombra difusa */;
 }
 
 section{ 
@@ -90,7 +87,7 @@ p{
     background-color: #8cada3;
     text-decoration: none;
     color: #fff;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
 }
 
@@ -106,10 +103,10 @@ p{
 }
 
 .grade-livros{
-    max-width: 80vw;
+    max-width: 70vw;
     margin: 0px auto;
     margin-bottom: 10px;
-    gap: 100px;
+    gap: 200px;
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
@@ -123,7 +120,7 @@ p{
 }
 
 .card-livro{
-    width: 300px;
+    width: 370px;
     text-align: center;
     border-radius: 10px;
     background-color: #d9c2e4;
@@ -137,7 +134,7 @@ p{
 }
 
 .btn-livro{
-    color: #ff0055;
+    color: #e79a9a;
     background-color: var(#5f515f #320606 );
     padding: 20px;
     border: none;
@@ -147,11 +144,11 @@ p{
 }
 
 .btn-livro:hover{
-    background-color: #fff;
+    background-color: #d1c8c8;
 }
 
 .categoria-livro{ 
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #000000;
     background-color: #ffffff;
@@ -159,9 +156,9 @@ p{
     border-radius: 15px;
 }
 .titulo-livro{
-    font-size: 17px;
+    font-size: 20px;
     color: #000000;
-    font-weight: 700;
+    font-weight: 800;
     padding: 15px 0;
 }
 
