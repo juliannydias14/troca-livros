@@ -7,22 +7,29 @@ body{
     margin: 0;
     padding: 0;
     margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
     width: 1142px;
-    height: 673px;
-    border: 2px solid #a2c7bb;
-    margin: 14vh auto;
+    height: 661px;
     display: flex;
+    box-shadow: 0 0 25px #8cada3;
+    border-radius: 10px;
 }
 
 .sessao-imagem{
-    width: 522px;
-    height: 673px;
+    width: 510px;
+    height: 661px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sessao-imagem img{
+    border-radius: 10px 0 0 10px;
 }
 
 .sessao-login{
@@ -95,9 +102,20 @@ form label{
 
 .links-senha label{
     position: relative;
-    right: 75px;
+    right: 60px;
+    color: rgb(102, 48, 48);
 }
 
-.link-senha label{
-    color: rgb(102, 48, 48);
+.links-senha label, input, a{
+    color: #8cada3;
+    font-weight: 400;
+}
+
+section a:hover{
+    color: #500505;
+    font-weight: 500;
+}
+
+#link-nao-conta{
+    text-align: center;
 }
