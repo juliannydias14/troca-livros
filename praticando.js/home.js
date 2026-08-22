@@ -11,25 +11,55 @@ btnTroca.addEventListener('mouseenter', () => {
     nomeSaida.style.color = "#B71009"
 })
 
+btnTroca.addEventListener( 'mouseout', () => {
+    nomeSaida.style.color = "#B71009";
+});
+
 // Trocando a cor da caixa
 
-const btnVermelho = document.getElementById("btn_verde");
-const btnRosa = document.getElementById("btn_rosa");
-const btnVerde = document.getElementById("btn_verde");
+const btnVioleta = document.getElementById("btn_Violeta"); 
+const btnRosa = document.getElementById("btn_rosa"); 
+const btnTurquesa = document.getElementById("btn_turquesa"); 
 const caixa = document.getElementById("caixa");
 
-btnVermelho.addEventListener('click', () => {
-    caixa.style.backgroundColor = "#B71009"
+btnVioleta.addEventListener('click', () => {
+    caixa.style.backgroundColor = "violet";
 });
 
 btnRosa.addEventListener('click', () => {
-    caixa.style.backgroundColor = "#F09CF9"
+    caixa.style.backgroundColor = "pink";
 });
 
-btnVerde.addEventListener('click', () => {
-    caixa.style.backgroundColor = "#ADEEC5"
+btnTurquesa.addEventListener('click', () => {
+    caixa.style.backgroundColor = "turquoise";
 });
 
-caixa.addEventListener('click', function(){
-    caixa.style.background = "#B71009"
+// Simulando adição e subtração de valor
+const valorReal = document.getElementById("valor_real");
+let contador = 0;
+
+document.getElementById("btn_menos").addEventListener( 'click', () => {
+    if(contador == 0){
+    contador--;
+    valorReal.textContent = contador;
+    }
+});
+
+document.getElementById("btn_mais").addEventListener( 'click', () => {
+    contador++;
+    valorReal.textContent = contador;
+});
+
+// adicionando Livros
+
+const nomeLivro = document.getElementById("nome_livro");
+const listaLivros = document.getElementById("lista_livros");
+
+document.getElementById("adiciona_livro").addEventListener('click', ()=>{
+
+    const novoLivro = document.createElement("li");
+    novoLivro.textContent = nomeLivro.value;
+    listaLivros.appendChild(novoLivro);
+
+    nomeLivro.value = "";
 })
